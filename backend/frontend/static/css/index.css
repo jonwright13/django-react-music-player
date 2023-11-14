@@ -1,0 +1,82 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* color: white; */
+}
+
+/* Base styling for main id */
+#main {
+    position: fixed;
+    width: 100%;
+    height: 80%;
+    left: 0;
+}
+
+/* Base styling for app id */
+#app {
+    width: 100%;
+    height: 100%;
+}
+
+/* Styling for 'center' className within the React apps */
+.center {
+    font-size: 25px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Styling for nav bar and all components nested within */
+nav {
+    overflow: hidden;
+    background-color: rgb(18, 87, 119);
+    height: 80px;
+    box-shadow: 0 0 25px 0 black;
+}
+
+/* Styling for nav bar image logo and url link */
+nav img {
+    float: left;
+    height: 50px;
+    margin: 14px 20px;
+}
+
+/* Styling for the div in the nav bar that contains links */
+nav div {
+    display: flex;
+    padding: 0px 20px;
+    float: right;
+}
+
+/* Styling for the links within the nav bar */
+nav div a {
+    /* font-family: sans-serif; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    padding: 29px 20px;
+}
+
+/* Additional styling for the nav bar links when a user hovers over them */
+nav div a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Footer styling */
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: -20px;
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+}
